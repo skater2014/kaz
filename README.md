@@ -27,7 +27,7 @@ function categories_label() {
 $back_color = get_field('ca_color_band',$cat_color);
 $txt_color = get_field('ca_color_txt',$cat_color);
 
------------------------another error code-----------------------
+-----------------------another error code   I thihk I fixed this ???-----------------------
 
 function my_styles() {
   wp_enqueue_style('my-style', get_theme_file_uri('/style.css'));
